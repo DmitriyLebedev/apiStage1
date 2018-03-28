@@ -1,0 +1,18 @@
+Views           resources/views
+Routs           app/Http/routes.php
+Controllerss    app/Http/Controllers
+Middleware      app/Http/Middleware
+
+------CLI------------
+php artisan make:model DbConnections -m
+php artisan migrate
+
+php artisan make:controller TransportController
+
+php artisan make:seeder BalancesTableSeeder
+php artisan migrate --seed
+
+php artisan make:migration add_user_id_to_DbConnections
+
+
+php artisan rout:list

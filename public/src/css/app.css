@@ -1,0 +1,36 @@
+
+
+.form-group label {
+    float: left;
+    width: 30%;
+}
+
+table tr,th td  {
+    border-bottom: 1px solid black;
+}
+
+table tr th  {
+    cursor: pointer;
+}
+
+#add_record {
+    float: right;
+}
+
+.sortorder:after {
+    content: '\25b2';
+}
+
+.sortorder.reverse:after {
+    content: '\25bc';
+}
+
+.filters label {
+    float: left;
+    margin: 4px 0 0 8px;
+}
+
+.filters select {
+    float: left;
+    margin: 0 8px;
+}
